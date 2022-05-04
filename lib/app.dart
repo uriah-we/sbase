@@ -15,7 +15,7 @@ class App extends StatelessWidget {
       popGesture: Get.isPopGestureEnable,
       initialRoute: AppPages.INITIAL,
       getPages: AppPages.routes,
-      title: 'Supabase Example',
+      title: 'WatchCrunch',
       debugShowCheckedModeBanner: false,
     );
   }
