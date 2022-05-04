@@ -23,9 +23,8 @@ class _LoginPageState extends AuthState<LoginPage> {
     final response = await supabase.auth.signIn(
         email: _emailController.text,
         options: AuthOptions(
-            redirectTo: kIsWeb
-                ? null
-                : 'io.supabase.flutterquickstart://login-callback/'));
+            redirectTo:
+                kIsWeb ? null : 'dev.goldcoders.sbase://login-callback/'));
     final error = response.error;
     if (error != null) {
       context.showErrorSnackBar(message: error.message);

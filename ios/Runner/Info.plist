@@ -44,14 +44,18 @@
 		<key>UIViewControllerBasedStatusBarAppearance</key>
 		<false/>
 		<!-- Add this array for Deep Links -->
+		<key>FlutterDeepLinkingEnabled</key>
+		<true/>
 		<key>CFBundleURLTypes</key>
 		<array>
 			<dict>
 				<key>CFBundleTypeRole</key>
 				<string>Editor</string>
-				<key>CFBundleURLSchemes</key>
+				<key>CFBundleURLName</key>
+				<string>flutterbooksample.com</string>
+				<key>dev.goldcoders.sbase</key>
 				<array>
-					<string>dev.goldcoders.sbase</string>
+					<string>sbase</string>
 				</array>
 			</dict>
 		</array>
